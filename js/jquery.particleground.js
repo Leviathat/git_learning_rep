@@ -7,8 +7,7 @@
  *
  * Inspired by http://requestlab.fr/ and http://disruptivebydesign.com/
  */
-
-;(function(window, document) {
+(function(window, document) {
   "use strict";
   var pluginName = 'particleground';
 
