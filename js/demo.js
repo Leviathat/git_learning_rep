@@ -14,10 +14,11 @@ document.addEventListener('DOMContentLoaded', function () {
 }, false);
 function hideFunction(id){
     var x = document.getElementById(id);
-    if (x.style.display === "block") {
-        x.style.display = "none";
+    x.style.transition = "0.2s";
+    if (x.style.opacity === "1") {
+        x.style.opacity = "0";
     } else {
-        x.style.display = "block";
+        x.style.opacity = "1";
     }
 }
 
